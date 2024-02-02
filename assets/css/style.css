@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Jura;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a{
+color: white;
+}
+a:hover{
+    color: #95411B;
+}
+@font-face {
+    font-family: 'Jura';
+    src: url(../fonts/Jura.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url(../fonts/Jura.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url(../fonts/Jura.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url(../fonts/Jura.ttf);
+    font-weight: 700;
+}
+
+
+/* Шапка */
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 147px;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #333;
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.connect__nav__inpico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 167px;
+    height: 80px;
+}
+
+.input__header {
+    border: 1px solid #333333;
+    height: 34px;
+    color: rgba(51, 51, 51, 0.73);
+    font-family: 'Jura';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+
+    padding-left: 44px;
+
+}
+
+.input__svg {
+    top: 7px;
+    left: 9px;
+    position: relative;
+}
+
+.input_header2 {
+    width: 270px;
+    height: auto;
+}
+
+.img_header {
+    width: 34px;
+    height: 34px;
+
+
+}
+
+.img__header__div {
+    margin-top: 9px;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    height: 42px;
+    margin: auto;
+}
+
+.bg__banner {
+    background-image: url(../media/banner\ 2.0.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.banner {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.banner__div1 {
+    margin-top: 163px;
+}
+
+.banner h1 {
+    color: #F3F3F3;
+
+    text-shadow: 0px 5px 7px #95411B;
+
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner p {
+    color: #F3F3F3;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 387px;
+}
+
+.banner button {
+    width: 175px;
+    height: 40px;
+    color: #F3F3F3;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: .3s;
+    margin-top: 15px;
+}
+
+.banner button:hover {
+    background-color: white;
+    color: #95411B;
+    cursor: pointer;
+}
+
+.popular_h2 {
+    color: #95411B;
+
+    text-shadow: 0px 5px 7px #95411B;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 100px;
+    margin-left: 67px;
+
+}
+
+.tovari {
+    margin-top: 33px;
+    width: 370px;
+    height: 435px;
+    border-radius: 28px;
+    border: 3px solid rgba(149, 65, 27, 0.69);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    right: 20px;
+
+    transition: .3s;
+}
+
+.tovari:hover {
+    box-shadow: 0px 0px 20px 0px rgba(51, 51, 51, 0.93);
+}
+
+
+.tovari img {
+    width: 219px;
+    height: 259px;
+    margin-top: 17px;
+}
+
+
+
+.name_tovara {
+    color: #95411B;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: lowercase;
+    width: 364px;
+    padding-left: 20px;
+}
+
+.btns__sizes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.margin_top{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.btns__sizes .button1__popular__tovari {
+    width: 60px;
+    height: 35px;
+
+    background-color: transparent;
+    color: #95411B;
+    border: 1px solid #95411B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: .3s;
+}
+
+.btns__sizes .button2__popular__tovari {
+    background: #95411B;
+    width: 60px;
+    height: 35px;
+    color: #F3F3F3;
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.btns__sizes .button1__popular__tovari:hover {
+    background: #95411B;
+    color: #F3F3F3;
+    cursor: pointer;
+}
+
+.btns__sizes .button2__popular__tovari:hover {
+    background: #95411B;
+    color: #F3F3F3;
+    cursor: pointer;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 55px;
+    margin-top: 18px;
+}
+
+.price p {
+    color: #95411B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 78px;
+    height: 24px;
+}
+
+.price button {
+    width: 152px;
+    height: 35px;
+    color: #95411B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid #95411B;
+    background-color: transparent;
+    transition: .3s;
+}
+
+.price button:hover {
+    background: #95411B;
+    color: #F3F3F3;
+    cursor: pointer;
+}
+
+
+
+
+
+.popular__tovari__box svg {
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+.popular__tovari__box svg:hover {
+    cursor: pointer;
+}
+
+.populars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+body {
+    color: #F3F3F3;
+}
+
+.categories {
+    margin-top: 117px;
+    width: 1090px;
+    height: 838px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.categories .img1 {
+    width: 568px;
+    height: 728px;
+    margin-top: 55px;
+}
+
+.categories .img1:hover,
+.img2:hover,
+.img3:hover {
+    cursor: pointer;
+}
+
+.categories .img2 {
+    width: 417px;
+    height: 518px;
+    margin-left: 38px;
+}
+
+.categories .img3 {
+    width: 335px;
+    height: 284px;
+
+}
+
+.categories div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #333333;
+    padding-top: 48px;
+    padding-bottom: 28px;
+}
+
+.footerch1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 147px;
+}
+
+.footerch1 nav a {
+    color: #F3F3F3;
+
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.footerch2 h3 {
+    color: #F3F3F3;
+
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65);
+
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footerch2 p {
+    color: #F3F3F3;
+
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 4px;
+}
+
+.connect__footerchs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 94px;
+}
+
+.connect__icons__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 294px;
+}
+
+
+
+/* каталог */
+
+.xleb{
+    font-size: 20px;
+    color: #95411B;
+    margin-top: 100px;
+}
+
+.nam_rit h2{
+margin: 0;
+}
+
+.input {
+    border: 1px solid #95411B;
+    height: 34px;
+    width: 370px;
+    color: #95411B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 30px;
+    padding-left: 44px;
+}
+
+.input_svg2 {
+    top: 37px;
+    left: 9px;
+    position: relative;
+}
+
+.line{
+    background: #53377A;
+    width:100%;
+    height: 2px;
+filter: blur(2px);
+}
+
+
+
+/* каталог */
+
+
+
+
+/* корзина */
+
+.kor_tovar{
+    border: 2px solid #95411B;
+    width: 830px;
+    height: 195px;
+    display: flex;
+
+}
+.tovar_info{
+    color: #95411B;
+}
+
+.tovar_info h3{
+    font-size: 25px;
+}
+.tovar_info p{
+    font-size: 20px;
+}
+
+.plus_btn .tovar_info .button1__popular__tovari {
+    width: 60px;
+    height: 35px;
+
+    background-color: transparent;
+    color: #95411B;
+    border: 1px solid #95411B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: .3s;
+}
+
+.plus_btn .tovar_info .button1__popular__tovari:hover {
+    background: #95411B;
+    color: #F3F3F3;
+    cursor: pointer;
+}
+
+.plus_btn button{
+    width: 40px;
+    height: 35px;
+}
+
+.tovars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
